@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class CurrencyMoney {
     public static void main(String[] args) {
-        float rate = 23000L;
+        double rate = 23000;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Input USD money");
-        float usdMoney = sc.nextFloat();
+        double usdMoney = sc.nextFloat();
 
-        float vndMoney = usdMoney * rate;
+        double vndMoney = usdMoney * rate;
         System.out.println("Result: " + vndMoney + " VND");
     }
 }
