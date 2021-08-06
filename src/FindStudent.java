@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class FindStudent {
     public static void main(String[] args) {
+        String[] studentArr = {"Christian", "Michael", "Camila", "Sienna", "Tanya", "Connor", "Zachariah", "Mallory", "Zoe", "Emily"};
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Student you wand to find?");
         String studentFind = sc.nextLine();
 
-        int index = searchIndexStudent(studentFind);// lấy ra giá trị index của mảng
+        int index = searchIndexStudent(studentArr ,studentFind);// lấy ra giá trị index của mảng
         if (index == -1) {
             System.out.println("No student found!");
         } else {
@@ -14,8 +15,7 @@ public class FindStudent {
         }
     }
 
-    public static int searchIndexStudent(String nameStudent) {
-        String[] arr = {"Christian", "Michael", "Camila", "Sienna", "Tanya", "Connor", "Zachariah", "Mallory", "Zoe", "Emily"};
+    public static int searchIndexStudent(String[] arr, String nameStudent) {
         System.out.println(nameStudent);
         int result = -1;
         int arrLength = arr.length;
