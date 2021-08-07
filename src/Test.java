@@ -1,34 +1,76 @@
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.Spliterator;
 public class Test {
-    int a = 4;
+    String name;
+    int age;
+
     public static void main(String[] args) {
-        String[] x = new String[10];
-        System.out.println(x[0]);
 //        A myObj = new A();
 //        System.out.println(myObj.bonus);
         Test myObj = new Test();
+        String y = "22 11 33.3 44 55 66";
+        int count = 0;
+        for (int i = 0; i < y.length(); i++) {
+            if (y.charAt(i) == ' ') {
+                count++;
+            }
+        }
+        String[] x = new String[count += 1];
+        for (int i = 0; i < x.length; i++) {
+            x[i] = "";
+        }
+        int index = 0;
+        for (int i = 0; i < y.length(); i++) {
+            if (y.charAt(i) != ' ') {
+                x[index] += y.charAt(i);
+            } else {
+                index++;
+                continue;
+            }
+        }
+        for (String value : x) {
+            System.out.println(value);
+        }
 
-        myObj.a();
+
+
+//        String[] x = " ".split(y);
+        float[] a = new float[x.length];
+        for (int i = 0; i < a.length; i++) {
+            a[i] = Float.parseFloat(x[i]);
+        }
+
+        float sum = 0;
+        for (float value : a) {
+            sum += value;
+        }
+        System.out.println(sum);
 
     }
-    public void a() {
-        System.out.println("tĩnh cộng động");
+    public void active(String a, int b) {
+        this.name = a;
+        this.age = b;
     }
 }
 
 class Second {
-    int b = 5;
-    int c = 6;
-    public static void main(String[] args) {
-        Second second = new Second();
-        System.out.println(second.b);
+    int width, height;
+    public Second(int width, int height) {
+        this.width = width;
+        this.height = height;
     }
+
+
 }
 
-class A extends Second {
-    int bonus = 7;
+class Rectangle {
+    double width, height;
+
+    public Rectangle() {
+    }
+
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
 }
 
 //        String[] arr = {"Thanh", "Tran", "Van", "A", "C"};
