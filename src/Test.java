@@ -5,6 +5,13 @@ public class Test {
     public static void main(String[] args) {
 //        A myObj = new A();
 //        System.out.println(myObj.bonus);
+        String str = "Welcome to gpcoder.com";
+        byte[] b = str.getBytes();
+        char c = 87;
+        System.out.println(c);
+        for (byte value : b) {
+            System.out.println(value);
+        }
         Test myObj = new Test();
         String y = "22 11 33.3 44 55 66";
         int count = 0;
