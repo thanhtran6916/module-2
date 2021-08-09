@@ -31,3 +31,4 @@ public class CountOfChar {
         return count;
     }
 }
+

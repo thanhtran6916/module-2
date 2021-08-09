@@ -50,31 +50,43 @@ public class Test {
             sum += value;
         }
         System.out.println(sum);
+        Second g = new Second(2,3);
+        g.getRadius();
+        Second.getRadius();
+        g.active("", 2);
+        g.active("",3);
+        Second.active("", 4);
+
 
     }
-    public void active(String a, int b) {
-        this.name = a;
-        this.age = b;
-    }
+
 }
+
 
 class Second {
     int width, height;
-    public Second(int width, int height) {
+    Second(int width, int height) {
         this.width = width;
         this.height = height;
     }
 
+    static void active(String a, int b) {
+        System.out.println(2);
+    }
+    static double getRadius() {
+        return 0;
+    }
+
 
 }
 
-class Rectangle {
+class Rectanglea {
     double width, height;
 
-    public Rectangle() {
+    public Rectanglea() {
     }
 
-    public Rectangle(double width, double height) {
+    public Rectanglea(double width, double height) {
         this.width = width;
         this.height = height;
     }

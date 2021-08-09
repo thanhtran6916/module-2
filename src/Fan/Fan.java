@@ -1,6 +1,5 @@
 package Fan;
-
-public class Fan {
+class Fan {
     final int slow = 1;
     final int medium = 2;
     final int fast = 3;
@@ -9,7 +8,7 @@ public class Fan {
     private double radius = 5;
     private String color = "blue";
 
-    public Fan() {
+    Fan() {
     }
 
     public int getSlow() {
@@ -28,7 +27,7 @@ public class Fan {
         return this.color;
     }
 
-    public int setSlow(int number) {
+    int setSlow(int number) {
         this.speed = number;
         return this.speed;
     }
@@ -48,6 +47,7 @@ public class Fan {
         return this.color;
     }
 
+    @Override
     public String toString() {
         String result = "";
         if (this.onOff) {

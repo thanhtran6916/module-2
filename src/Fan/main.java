@@ -1,5 +1,8 @@
 package Fan;
 
+import java.sql.Time;
+import java.util.Date;
+
 public class main {
     public static void main(String[] args) {
         Fan fan1 = new Fan();

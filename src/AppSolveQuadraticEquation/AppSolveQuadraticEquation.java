@@ -1,7 +1,7 @@
 package AppSolveQuadraticEquation;
 
 public class AppSolveQuadraticEquation {
-    double a, b, c;
+    private double a, b, c;
     public AppSolveQuadraticEquation(double a, double b, double c) {
         this.a = a;
         this.b = b;
