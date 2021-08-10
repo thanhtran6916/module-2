@@ -1,6 +1,7 @@
 package Rectangle;
 
 public class Rectangle {
+
     double width, height;
 
     public Rectangle() {

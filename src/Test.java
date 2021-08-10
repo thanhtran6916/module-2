@@ -3,60 +3,17 @@ public class Test {
     int age;
 
     public static void main(String[] args) {
-//        A myObj = new A();
-//        System.out.println(myObj.bonus);
-        String str = "Welcome to gpcoder.com";
-        byte[] b = str.getBytes();
-        char c = 87;
-        System.out.println(c);
-        for (byte value : b) {
+        AddElementToArray ab = new AddElementToArray();
+
+        Integer a = new Integer("100");
+        Integer c = new Integer(4);
+        boolean d = !a.equals(c);
+        String b = "thành";
+        String[] e = b.split("");
+        for (String value : e) {
             System.out.println(value);
         }
-        Test myObj = new Test();
-        String y = "22 11 33.3 44 55 66";
-        int count = 0;
-        for (int i = 0; i < y.length(); i++) {
-            if (y.charAt(i) == ' ') {
-                count++;
-            }
-        }
-        String[] x = new String[count += 1];
-        for (int i = 0; i < x.length; i++) {
-            x[i] = "";
-        }
-        int index = 0;
-        for (int i = 0; i < y.length(); i++) {
-            if (y.charAt(i) != ' ') {
-                x[index] += y.charAt(i);
-            } else {
-                index++;
-                continue;
-            }
-        }
-        for (String value : x) {
-            System.out.println(value);
-        }
-
-
-
-//        String[] x = " ".split(y);
-        float[] a = new float[x.length];
-        for (int i = 0; i < a.length; i++) {
-            a[i] = Float.parseFloat(x[i]);
-        }
-
-        float sum = 0;
-        for (float value : a) {
-            sum += value;
-        }
-        System.out.println(sum);
-        Second g = new Second(2,3);
-        g.getRadius();
-        Second.getRadius();
-        g.active("", 2);
-        g.active("",3);
-        Second.active("", 4);
-
+        System.out.println(d);
 
     }
 
@@ -91,6 +48,63 @@ class Rectanglea {
         this.height = height;
     }
 }
+//    byte[] j = {
+//            'g', 'p', 4, 'o', 'd', 'e', 'r'
+//    };
+//        System.out.println(j[2]);
+////        A myObj = new A();
+////        System.out.println(myObj.bonus);
+//                String str = "Welcome to gpcoder.com";
+//                byte[] b = str.getBytes();
+//                char c = 87;
+//                System.out.println(c);
+//                for (byte value : b) {
+//                System.out.println(value);
+//                }
+//                Test myObj = new Test();
+//                String y = "22 11 33.3 44 55 66";
+//                int count = 0;
+//                for (int i = 0; i < y.length(); i++) {
+//        if (y.charAt(i) == ' ') {
+//        count++;
+//        }
+//        }
+//        String[] x = new String[count += 1];
+//        for (int i = 0; i < x.length; i++) {
+//        x[i] = "";
+//        }
+//        int index = 0;
+//        for (int i = 0; i < y.length(); i++) {
+//        if (y.charAt(i) != ' ') {
+//        x[index] += y.charAt(i);
+//        } else {
+//        index++;
+//        continue;
+//        }
+//        }
+//        for (String value : x) {
+//        System.out.println(value);
+//        }
+//
+//
+//
+////        String[] x = " ".split(y);
+//        float[] a = new float[x.length];
+//        for (int i = 0; i < a.length; i++) {
+//        a[i] = Float.parseFloat(x[i]);
+//        }
+//
+//        float sum = 0;
+//        for (float value : a) {
+//        sum += value;
+//        }
+//        System.out.println(sum);
+//        Second g = new Second(2,3);
+//        g.getRadius();
+//        Second.getRadius();
+//        g.active("", 2);
+//        g.active("",3);
+//        Second.active("", 4);
 
 //        String[] arr = {"Thanh", "Tran", "Van", "A", "C"};
 //        String myString = Arrays.toString(arr);

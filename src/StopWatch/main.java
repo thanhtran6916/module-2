@@ -8,8 +8,7 @@ public class main {
 
         startStop.star();
 
-        int[] arrNumber = new int[1000000];
-        System.arraycopy(arrNumber(1000000), 0, arrNumber, 0, 1000000);
+        int[] arrNumber = arrNumber(1000000);
         for (int value : arrNumber) {
             System.out.println(value);
         }

@@ -1,5 +1,5 @@
 package Fan;
-class Fan {
+public class Fan {
     final int slow = 1;
     final int medium = 2;
     final int fast = 3;
@@ -8,7 +8,7 @@ class Fan {
     private double radius = 5;
     private String color = "blue";
 
-    Fan() {
+    public Fan() {
     }
 
     public int getSlow() {

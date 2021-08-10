@@ -1,10 +1,13 @@
 package StopWatch;
 
+import javafx.scene.paint.Stop;
+
 public class StopWatch {
     private long startTime;
     private long endTime;
 
     public StopWatch() {}
+    public StopWatch(double a) {}
 
     public long getStartTime() {
         return this.startTime;
@@ -27,3 +30,5 @@ public class StopWatch {
     }
 
 }
+
+
