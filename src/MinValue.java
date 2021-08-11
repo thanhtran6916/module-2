@@ -14,5 +14,6 @@ public class MinValue {
             }
         }
         return min;
+
     }
 }

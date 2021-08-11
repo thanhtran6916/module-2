@@ -6,6 +6,7 @@ public class Car {
     public static int carNumberCount = 0;
 
     public Car(String name, String color) {
+
         this.name = name;
         this.color = color;
         carNumberCount++;
