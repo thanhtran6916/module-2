@@ -1,59 +1,33 @@
 package home_word_2;
 
 public class Hotel {
-    static private Customer[] arrCustomer;
+    private Customer[] arrCustomer = new Customer[0];
     private String[] typeRoom = {"vip", "normal"};
-    private int[] rateMoney = {150, 200};
+    private int[] rateMoney = {200, 150};
 
     public Hotel() {
 
     }
 
-    public Customer[] addCustomer(Customer a) {
-        Customer[] newArrCustomer;
-        if (arrCustomer == null) {
-            arrCustomer = new Customer[1];
-            newArrCustomer = new Customer[this.arrCustomer.length];
-            newArrCustomer[0] = a;
-        } else {
-            newArrCustomer = new Customer[this.arrCustomer.length];
-            System.arraycopy(arrCustomer, 0, newArrCustomer, 0, this.arrCustomer.length);
-            newArrCustomer[newArrCustomer.length -1] = a;
-        }
-        return arrCustomer = newArrCustomer;
+    public Hotel(Customer[] arrCustomer, String[] typeRoom, int[] rateMoney) {
+        this.arrCustomer = arrCustomer;
+        this.typeRoom = typeRoom;
+        this.rateMoney = rateMoney;
     }
 
-    public void displayCustomerAll() {
-        for (int i = 0; i < arrCustomer.length; i++) {
-            System.out.print(this.arrCustomer[i].toString());
-            System.out.println("");
-        }
+    public Customer[] getArrCustomer() {
+        return this.arrCustomer;
     }
 
-    public Customer[] deleteCustomer(Customer a) {
-        Customer[] newArrCustomer = new Customer[this.arrCustomer.length - 1];
-        int index = 0;
-        for (Customer value : this.arrCustomer) {
-            if (a.equals(value)) {
-                continue;
-            }
-            newArrCustomer[index] = value;
-            index++;
-        }
-        return newArrCustomer;
+    public void setArrCustomer(Customer[] arrCustomer) {
+        this.arrCustomer = arrCustomer;
     }
 
-    public int calculateMoney(Customer a) {
-        int result = 0;
-        int checkIn = a.getCheckIn();
-        int checkOut = a.getCheckOut();
-        String typeRoom = a.getTypeRoom();
-        if (typeRoom.equals(this.typeRoom[0])) {
-            result = (checkOut - checkIn) * this.rateMoney[0];
-        } else if (typeRoom.equals(this.typeRoom[1])){
-            result = (checkOut - checkIn) * this.rateMoney[1];
-        }
-        return result;
+    public String[] getTypeRoom() {
+        return typeRoom;
     }
 
+    public int[] getRateMoney() {
+        return rateMoney;
+    }
 }
