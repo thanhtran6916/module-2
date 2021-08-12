@@ -1,6 +1,6 @@
 package circle;
 
-public class Circle {
+public class Circle{
     private double radius;
     private String color;
 
@@ -38,4 +38,5 @@ public class Circle {
     public String toString() {
         return "A Circle have radius = " + this.radius + " and color " + this.color;
     }
+
 }
