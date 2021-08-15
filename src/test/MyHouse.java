@@ -1,25 +1,31 @@
 package test;
 
-public class MyHouse extends House {
+public class MyHouse extends House implements Comparable<MyHouse>{
     private int newArea = 4;
-
 
     public MyHouse() {
 
     }
-    public MyHouse(String color) {
-        super(color);
+
+    public MyHouse(int newArea) {
+        this.newArea = newArea;
     }
 
     @Override
     public int getArea() {
-        return super.getArea();
+        return newArea * newArea;
+    }
+
+    public int getChuVi() {
+        return newArea + newArea;
     }
 
 
-    public static void main(String[] args) {
-        House a = new MyHouse();
-        System.out.println(a.getArea());
+    @Override
+    public int compareTo(MyHouse o) {
+        if (newArea > o.newArea) {
+            return 1;
+        }
+        return -1;
     }
-
 }

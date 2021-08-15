@@ -1,18 +1,12 @@
 package test;
 
-public class House {
-    private int area = 2;
-    private String color;
-    public House(String color) {
-        this.color = color;
-    }
+public class House implements test{
+    private int newArea = 4;
+
     public House() {}
 
-    public int getArea(){
-        return area;
-    }
-    public class House1 {
-
+    public  int getArea() {
+        return newArea;
     }
 }
 
