@@ -1,4 +1,4 @@
-package new_home_word_3;
+package new2_home_word_3;
 
 import java.time.LocalDate;
 import java.util.Scanner;

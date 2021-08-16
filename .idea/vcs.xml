@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/apj-junit-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/apj_junit_calculator" vcs="Git" />
   </component>
 </project>

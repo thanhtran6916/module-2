@@ -1,8 +1,8 @@
-package new_home_word_3;
+package new2_home_word_3;
 
 import java.time.LocalDate;
 
-public class Meat extends Material implements Discount {
+class Meat extends Material implements Discount {
     private static final int DAY_USE_PRODUCT = 7;
     public static final int EXTRA_3_DAYS_OF_USE = 3;
     public static final int EXTRA_5_DAYS_OF_USE = 5;

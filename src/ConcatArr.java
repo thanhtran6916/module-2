@@ -1,6 +1,6 @@
 public class ConcatArr {
     public static void main(String[] args) {
-        String[] arr1 = {"a", "b", "c"};
+        String[] arr1 = {"calculator_app", "b", "c"};
         String[] arr2 = {"d", "e", "f", "g"};
 
         String[] arr3 = mergeArray(arr1, arr2);

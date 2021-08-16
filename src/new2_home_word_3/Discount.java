@@ -1,5 +1,5 @@
-package new_home_word_3;
+package new2_home_word_3;
 
-public interface Discount {
+interface Discount {
     double getRealMoney();
 }
