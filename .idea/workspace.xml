@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026c0091-464a-4c85-8312-afd45fc25f59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apj-junit-calculator" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj-junit-calculator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apj-junit-calculator/src/com/codegym/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj-junit-calculator/src/com/codegym/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apj-junit-calculator/test/com/codegym/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj-junit-calculator/test/com/codegym/SimpleCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wluKIuVyRli23Sz56FNfr0o9os" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +37,7 @@
       <updated>1629045436305</updated>
       <workItem from="1629045447222" duration="460000" />
       <workItem from="1629098473438" duration="306000" />
+      <workItem from="1629102413575" duration="269000" />
     </task>
     <servers />
   </component>
