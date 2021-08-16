@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026c0091-464a-4c85-8312-afd45fc25f59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/define-triangle/define-triangle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/define-triangle/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/define-triangle/src/TriangleClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/define-triangle/testTriangleClassifier/TriangleClassifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apj_junit_calculator" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj_junit_calculator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apj_junit_calculator/src/com/codegym/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj_junit_calculator/src/com/codegym/SimpleCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apj_junit_calculator/test/com/codegym/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj_junit_calculator/test/com/codegym/SimpleCalculatorTest.java" afterDir="false" />
@@ -15,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +42,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -44,8 +54,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\CodeGym\module_2\tuan-1\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MaterialManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="define-triangle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaterialManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new2_home_word_3.MaterialManager" />
       <module name="tuan-1" />
@@ -74,8 +97,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TriangleClassifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="define-triangle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleClassifierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleClassifierTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="define-triangle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleClassifierTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TriangleClassifierTest" />
+        <item itemvalue="JUnit.TriangleClassifierTest.test1" />
         <item itemvalue="Application.MaterialManager" />
         <item itemvalue="JUnit.SimpleCalculatorTest" />
       </list>
@@ -94,6 +139,8 @@
       <workItem from="1629102413575" duration="269000" />
       <workItem from="1629102731270" duration="2282000" />
       <workItem from="1629107123914" duration="442000" />
+      <workItem from="1629111691065" duration="657000" />
+      <workItem from="1629121360522" duration="2146000" />
     </task>
     <servers />
   </component>
