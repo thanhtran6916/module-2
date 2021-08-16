@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026c0091-464a-4c85-8312-afd45fc25f59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/home_work_4/CrispyFlout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home_work_4/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home_work_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home_work_4/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home_work_4/MaterialManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home_work_4/Meat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_home_word_3/CrispyFlour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new_home_word_3/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ComparatorHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/YourHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan-1/test/House$House1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan-1/test/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan-1/test/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan-1/test/MyHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan-1/test/MyHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan-1/test/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan-1/test/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MyHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuan-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +22,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="026c0091-464a-4c85-8312-afd45fc25f59" name="Changes" comment="" />
       <created>1629045436305</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629045436305</updated>
+      <workItem from="1629045447222" duration="460000" />
+      <workItem from="1629098473438" duration="306000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
