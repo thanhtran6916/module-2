@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026c0091-464a-4c85-8312-afd45fc25f59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absolute_number_calculator/AbsoluteNumberCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/absolute_number_calculator/TestAbsolute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConcatArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcatArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apj-junit-calculator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apj_junit_calculator" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj_junit_calculator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apj_junit_calculator/src/com/codegym/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj_junit_calculator/src/com/codegym/SimpleCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apj_junit_calculator/test/com/codegym/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/apj_junit_calculator/test/com/codegym/SimpleCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/apj_junit_calculator" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wluKIuVyRli23Sz56FNfr0o9os" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,6 +42,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CodeGym\module_2\tuan-1\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MaterialManager">
     <configuration name="MaterialManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -83,7 +95,7 @@
       <workItem from="1629045447222" duration="460000" />
       <workItem from="1629098473438" duration="306000" />
       <workItem from="1629102413575" duration="269000" />
-      <workItem from="1629102731270" duration="842000" />
+      <workItem from="1629102731270" duration="2282000" />
     </task>
     <servers />
   </component>
